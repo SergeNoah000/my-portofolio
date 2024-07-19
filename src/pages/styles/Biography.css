@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #8B008B;
+    --secondary-color: #FFFFFF;
+    --tertiary-color: #FFC0CB;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
+  .navbar {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
+  .footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+  }
+  
+  .main-title {
+    text-align: center;
+    color: var(--primary-color);
+    margin-top: 20px;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    /* height: 300px!important; */
+  }
+  
+  .section-even .section-content {
+    flex-direction: row-reverse;
+  }
+  
+  .section-content {
+    display: flex;
+    align-items: center;
+    background-color: var(--tertiary-color);
+    border-radius: 10px;
+    padding: 20px;
+    height: 400px!important;
+  }
+  
+  .section-image {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 400px!important;
+    /* width: 50%!important; */
+  }
+  
+  .section-text {
+    flex: 1;
+  }
+  
+  .section-title {
+    color: var(--primary-color);
+    margin-bottom: 40px;
+  }
+  
